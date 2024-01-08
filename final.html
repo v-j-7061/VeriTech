@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: auto;
+            background-color: #f4f4f4;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .company-name {
+            margin: auto;
+            margin-top: 50px;
+            font-size: 100px;
+            width: 700px;
+            height: 100px;
+            font-weight: bold;
+            color: #4f6478;
+            border-radius: 25px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .company-name1 {
+            font-size: 4.0rem;
+            margin: auto;
+            font-weight: bold;
+            color: #4f6478;
+            border-radius: 25px;
+            width: 600px;
+            height: 70px;
+            padding: 10px;
+            background-color: rgb(250, 255, 252);
+        }
+
+        .company-name2 {
+            font-size: 4.0rem;
+            margin: auto;
+            font-weight: bold;
+            color: #4f6478;
+            border-radius: 25px;
+            width: 800px;
+            height: 80px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .background-effect {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #000000, #555758, #d2d5d6, #ecf0f1);
+            background-size: 100% 100%;
+            animation: gradientBackground 10s infinite;
+            z-index: 1;
+        }
+
+        @keyframes gradientBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .team-container {
+            display: flex;
+            margin-right: 50px;
+            margin-bottom: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        .employee-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            width: 250px;
+            margin: 10px;
+            position: relative;
+        }
+
+        .employee-card:hover {
+            transform: scale(1.05);
+        }
+
+        .employee-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .employee-details {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .para-1 {
+            padding: 50px;
+            color: rgb(0, 0, 0);
+            font-size: 80px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        .para-2 {
+            padding: 50px;
+            color: rgb(20, 13, 13);
+            font-size: 100px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-effect"></div>
+    <header>
+        <h1 class="company-name">Vansh Tech</div>
+    </header>
+        <div class="para-1">
+            Welcome to Vansh Tech , where a dedicated team of professionals<br>works together to bring
+            innovation,creativity and expertise to software <br>industry.get know the individuals whomake our company thrive.
+    </div>
+    <div class="team-container">
+        <div class="para-2">
+            Meet our Team 
+        </div>
+    </div>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 1">
+            <div class="employee-details">
+                <h2>John Doe</h2>
+                <p>CEO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <header>
+        <h1 div class="company-name1" ;>Development team </div>
+    </header>
+    <br><br><br>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <header>
+        <h1 class="company-name2">Sales & Marketing Team</div>
+    </header>
+    <br><br><br>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+    <div class="team-container">
+        <div class="employee-card">
+            <img class="employee-img" src="one.jpg" alt="Employee 2">
+            <div class="employee-details">
+                <h2>Jane Smith</h2>
+                <p>CTO</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
